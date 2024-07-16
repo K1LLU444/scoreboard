@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('court.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.scoreboard {
+    display: flex;
+    background-color: #1B244A;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 450px;
+    height: 150px;
+}
+
+.home {
+    margin-right: 100px;
+}
+
+.guest {
+}
+
